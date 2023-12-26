@@ -6,10 +6,10 @@ import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-upload-files',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  templateUrl: './upload-files.component.html',
+  styleUrls: ['./upload-files.component.css']
 })
-export class HomeComponent implements OnInit{
+export class UploadFilesComponent implements OnInit{
   selectedFiles?: FileList;
   currentFile?: File;
   progress = 0;

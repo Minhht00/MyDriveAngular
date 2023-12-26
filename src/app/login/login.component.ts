@@ -7,6 +7,7 @@ import { HttpEventType, HttpResponse } from '@angular/common/http';
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
+  template: `<img [src]="imageUrl">`
 })
 export class LoginComponent {
 
@@ -40,4 +41,5 @@ export class LoginComponent {
         }
       });
   }
+  imageUrl = '../assets/images/back.jpg';
 }
